@@ -17,20 +17,21 @@ def fourSum(array, target):
     array.sort()
     n = len(array)
     result = []
-    for i in range(n-2):
-        temp_pair = array[i] + array[i+1]
-        left = i + 2
-        right = n - 1
-        while left < right:
-            current = array[left] + array[right]
-            if current == target - temp_pair:
-                temp = [array[i], array[i+1], array[left], array[right]]
-                if temp not in result:
-                    result.append(sorted(temp))
-            if current < target - temp_pair:
-                left += 1
-            else:
-                right -= 1
+    for i in range(n-4):
+        for j in range(i+1, n-3):
+            temp_pair = array[i] + array[j]
+            left = j + 1
+            right = n - 1
+            while left < right:
+                current = array[left] + array[right]
+                if current == target - temp_pair:
+                    temp = [array[i], array[j], array[left], array[right]]
+                    if temp not in result:
+                        result.append(sorted(temp))
+                if current < target - temp_pair:
+                    left += 1
+                else:
+                    right -= 1
     return result
 
 if __name__ == '__main__':
