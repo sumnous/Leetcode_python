@@ -26,15 +26,24 @@ class Solution:
         graycode = [[0] * n]
         while i < (pow(2, n)-1):
             for j in reversed(range(n)):
+                tmp = list(graylist)
                 if graylist[j] == 0:
                     graylist[j] = 1
                 else:
                     graylist[j] = 0
                 if graylist not in graycode:
                     break
-            graycode.append(graylist)
+                else:
+                    graylist = tmp
+            graycode.append(list(graylist))
             i += 1
-        return graycode
+        result = []
+        for x in graycode:
+            re = 0
+            for i in range(n):
+                re += x[i] * pow(2, n-i-1)
+            result.append(re)
+        return result
 
 if __name__ == '__main__':
     s = Solution()
