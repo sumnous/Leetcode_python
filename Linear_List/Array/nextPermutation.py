@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 '''
-Created on 2014-01-21
+Created on 2014-02-21
 @author: Ting Wang
 inference: https://github.com/baiyubin/leetcode/blob/master/nextPermutation/main.py
 '''

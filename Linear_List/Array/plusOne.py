@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 '''
-Created on 2014-01-26
+Created on 2014-02-26
 @author: Ting Wang
 '''
 #Given a non-negative number represented as an array of digits, plus one to the number.
