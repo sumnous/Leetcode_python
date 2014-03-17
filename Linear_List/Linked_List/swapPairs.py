@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 '''
-Created on 2014-03-13
+Created on 2014-03-17
 @author: Ting Wang
 & used some time, about even or odd of array
 '''
