@@ -3,6 +3,7 @@
 '''
 Created on 2014-03-17
 @author: Ting Wang
+#TODO: recursive way and iterative way
 '''
 
 #Given a linked list, reverse the nodes of a linked list k at a time and return its modified list.
