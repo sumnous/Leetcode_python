@@ -13,26 +13,30 @@ Created on 2014-1-2
 # For example, given array S = {-1 0 1 2 -1 -4}.
 # A solution set is: (-1, 0, 1)  (-1, -1, 2)
 
-def threeSum(array, target):
-    array.sort()
-    n = len(array)
-    result = []
-    for i in range(n-2):
-        left = i + 1
-        right = n - 1
-        while left < right:
-            current = array[left] + array[right]
-            if current == target - array[i]:
-                temp = [array[i], array[left], array[right]]
-                if temp not in result:
-                    result.append(sorted(temp))
-            if current < target - array[i]:
-                left += 1
-            else:
-                right -= 1
-    return result
+class Solution:
+    # @return a list of lists of length 3, [[val1,val2,val3]]
+    def threeSum(self, num):
+        num.sort()
+        n = len(num)
+        result = []
+        for i in xrange(n-2):
+            left = i + 1
+            right = n - 1
+            while left < right:
+                current = num[left] + num[right]
+                if current == -num[i]:
+                    triplets = [num[i], num[left], num[right]]
+                    triplets.sort()
+                    if triplets not in result:
+                        result.append(triplets)
+                if current < -num[i]:
+                    left += 1
+                else:
+                    right -= 1
+        return result
 
 if __name__ == '__main__':
+    s = Solution()
     array = [-1, 0, 1, 2, -1, -4]
-    target = 0
-    print threeSum(array, target)
+    #array = [0,0,0]
+    print s.threeSum(array)

@@ -19,7 +19,7 @@
     <SUITE FILE_PATH="coverage/Leetcode_python$threeSumClosest.coverage" NAME="threeSumClosest Coverage Results" MODIFIED="1388664084949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Linear_List/Array" />
     <SUITE FILE_PATH="coverage/Leetcode_python$findMedianArrays.coverage" NAME="findMedianArrays Coverage Results" MODIFIED="1387952691565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Linear_List/Array" />
     <SUITE FILE_PATH="coverage/Leetcode_python$factorial.coverage" NAME="factorial Coverage Results" MODIFIED="1392986991808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Leetcode_python$threeSum.coverage" NAME="threeSum Coverage Results" MODIFIED="1388664649492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Linear_List/Array" />
+    <SUITE FILE_PATH="coverage/Leetcode_python$threeSum.coverage" NAME="threeSum Coverage Results" MODIFIED="1408465520531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode_python$reverseKGroup.coverage" NAME="reverseKGroup Coverage Results" MODIFIED="1395044755914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Linear_List/Linked_List" />
     <SUITE FILE_PATH="coverage/Leetcode_python$removeDuplicates.coverage" NAME="removeDuplicates Coverage Results" MODIFIED="1386586053677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Leetcode_python$partitionList.coverage" NAME="partitionList Coverage Results" MODIFIED="1393943042043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Linear_List/Linked_List" />
@@ -79,10 +79,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="twoSum.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="twoSum.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/twoSum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="18" selection-start="90" selection-end="90" vertical-scroll-proportion="0.2739726" vertical-offset="0" max-vertical-offset="1000">
+            <state line="4" column="18" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1000">
               <folding />
             </state>
           </provider>
@@ -97,10 +97,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="threeSum.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="threeSum.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/threeSum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="48" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0" vertical-offset="50" max-vertical-offset="1075">
+            <state line="40" column="19" selection-start="1301" selection-end="1301" vertical-scroll-proportion="0.71428573" vertical-offset="625" max-vertical-offset="1175">
               <folding />
             </state>
           </provider>
@@ -124,7 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Linear_List/Linked_List/removeNthFromEnd.py" />
         <option value="$PROJECT_DIR$/Linear_List/Linked_List/swapPairs.py" />
         <option value="$PROJECT_DIR$/Linear_List/Linked_List/reverseKGroup.py" />
         <option value="$PROJECT_DIR$/Linear_List/Linked_List/linkedListCycle.py" />
@@ -140,6 +139,7 @@
         <option value="$PROJECT_DIR$/C-small-0.in" />
         <option value="$PROJECT_DIR$/codejam1.py" />
         <option value="$PROJECT_DIR$/twoSum.py" />
+        <option value="$PROJECT_DIR$/threeSum.py" />
       </list>
     </option>
   </component>
@@ -224,7 +224,7 @@
       <recent name="$PROJECT_DIR$/Linear_List" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.twoSum">
+  <component name="RunManager" selected="Python.threeSum">
     <configuration default="false" name="quickSort" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -239,25 +239,6 @@
       <module name="Leetcode_python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/quickSort.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="longestValidParentheses" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Leetcode_python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/longestValidParentheses.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -315,6 +296,25 @@
       <module name="Leetcode_python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/twoSum.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="threeSum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Leetcode_python" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/threeSum.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -472,18 +472,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.quickSort" />
-      <item index="1" class="java.lang.String" itemvalue="Python.longestValidParentheses" />
-      <item index="2" class="java.lang.String" itemvalue="Python.reverseLinkedList2" />
-      <item index="3" class="java.lang.String" itemvalue="Python.codejam1" />
-      <item index="4" class="java.lang.String" itemvalue="Python.twoSum" />
+      <item index="1" class="java.lang.String" itemvalue="Python.reverseLinkedList2" />
+      <item index="2" class="java.lang.String" itemvalue="Python.codejam1" />
+      <item index="3" class="java.lang.String" itemvalue="Python.twoSum" />
+      <item index="4" class="java.lang.String" itemvalue="Python.threeSum" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.twoSum" />
-        <item index="1" class="java.lang.String" itemvalue="Python.codejam1" />
-        <item index="2" class="java.lang.String" itemvalue="Python.quickSort" />
-        <item index="3" class="java.lang.String" itemvalue="Python.reverseLinkedList2" />
-        <item index="4" class="java.lang.String" itemvalue="Python.longestValidParentheses" />
+        <item index="0" class="java.lang.String" itemvalue="Python.threeSum" />
+        <item index="1" class="java.lang.String" itemvalue="Python.twoSum" />
+        <item index="2" class="java.lang.String" itemvalue="Python.codejam1" />
+        <item index="3" class="java.lang.String" itemvalue="Python.quickSort" />
+        <item index="4" class="java.lang.String" itemvalue="Python.reverseLinkedList2" />
       </list>
     </recent_temporary>
   </component>
@@ -522,11 +522,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17638889" sideWeight="0.56624824" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17638889" sideWeight="0.7712692" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3305671" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43375173" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22873083" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -647,16 +647,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/threeSum.py">
+    <entry file="file://$PROJECT_DIR$/twoSum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="48" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0" vertical-offset="50" max-vertical-offset="1075">
+        <state line="4" column="18" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1000">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/twoSum.py">
+    <entry file="file://$PROJECT_DIR$/threeSum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="18" selection-start="90" selection-end="90" vertical-scroll-proportion="0.2739726" vertical-offset="0" max-vertical-offset="1000">
+        <state line="40" column="19" selection-start="1301" selection-end="1301" vertical-scroll-proportion="0.71428573" vertical-offset="625" max-vertical-offset="1175">
           <folding />
         </state>
       </provider>
