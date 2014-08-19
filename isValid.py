@@ -18,6 +18,6 @@ class Solution:
                         stack.pop()
                         continue
         return not stack
-
+# test
 s = Solution()
 print s.isValid('()')

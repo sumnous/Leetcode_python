@@ -13,7 +13,7 @@ class Solution:
             else:
                 stack.append((i, s[i]))
         return maxLen
-
+# test
 s = Solution()
 print s.longestValidParentheses("()(()")
 print s.longestValidParentheses('(()()')
